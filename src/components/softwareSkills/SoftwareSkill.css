@@ -27,3 +27,11 @@
 .software-skill-inline > i:hover ~ p{
   color: #645beb;
 }
+
+
+
+.img-gray-scale {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}

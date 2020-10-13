@@ -68,7 +68,7 @@ const skillsSection = {
     {
       skillName: "Flutter",
       fontAwesomeClassname: "/",
-      imagePath: "image not showing up"
+      imagePath: require("./assets/images/flutterLogo.png")
     },
     {
       skillName: "Python",
@@ -77,7 +77,7 @@ const skillsSection = {
     {
       skillName: ".NET Core",
       fontAwesomeClassname: "/",
-      imagePath: "image not showing up"
+      imagePath: require("./assets/images/netCoreLogo.png"),
     }
   ]
 };

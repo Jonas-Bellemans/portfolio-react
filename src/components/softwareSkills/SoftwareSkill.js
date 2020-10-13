@@ -8,11 +8,10 @@ export default function SoftwareSkill() {
       <div className="software-skills-main-div">
         <ul className="dev-icons">
           {skillsSection.softwareSkills.map(skills => {
-            console.log("skills.imagePath", skills.imagePath, (skills.imagePath ? "true" : "false"));
             if(skills.imagePath) {
               return (
                 <li className="software-skill-inline" name={skills.skillName}>
-                  <img src={skills.imagePath}></img>
+                  <img src={skills.imagePath} height="40" className="img-gray-scale"></img>
                   <p>{skills.skillName}</p>
                 </li>
               );
