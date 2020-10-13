@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58f2ffe6628c0b25f29771010ae32707",
+    "revision": "167f0cd3efb421518040a49ee4290b09",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "3b828424043cf01c6b98",
+    "revision": "252e93e044001b1d228e",
     "url": "/portfolio-react/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "5a92c8a1c268c586607c",
+    "revision": "2341269210a219ae7317",
     "url": "/portfolio-react/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "ddf6155bea212c41d3bc",
-    "url": "/portfolio-react/static/css/main.aa87ef33.chunk.css"
+    "revision": "ddc9b487fce167b5b298",
+    "url": "/portfolio-react/static/css/main.0fdd76f8.chunk.css"
   },
   {
-    "revision": "3e40395ef00f7cc48981",
-    "url": "/portfolio-react/static/js/2.63cf9182.chunk.js"
+    "revision": "7b62c7420446442b925a",
+    "url": "/portfolio-react/static/js/2.379bd386.chunk.js"
   },
   {
-    "revision": "3b828424043cf01c6b98",
-    "url": "/portfolio-react/static/js/3.25bd1aa9.chunk.js"
+    "revision": "252e93e044001b1d228e",
+    "url": "/portfolio-react/static/js/3.020152c2.chunk.js"
   },
   {
-    "revision": "5a92c8a1c268c586607c",
-    "url": "/portfolio-react/static/js/4.52a09b9f.chunk.js"
+    "revision": "2341269210a219ae7317",
+    "url": "/portfolio-react/static/js/4.8d3acbaa.chunk.js"
   },
   {
-    "revision": "ddf6155bea212c41d3bc",
-    "url": "/portfolio-react/static/js/main.1ffd3237.chunk.js"
+    "revision": "ddc9b487fce167b5b298",
+    "url": "/portfolio-react/static/js/main.50af16a7.chunk.js"
   },
   {
-    "revision": "fa467052b52403c2229f",
-    "url": "/portfolio-react/static/js/runtime-main.a7ac4873.js"
+    "revision": "e78411e81bd1bbec232b",
+    "url": "/portfolio-react/static/js/runtime-main.e0094016.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -90,6 +90,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/portfolio-react/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "022fadb530ef022c3e54ac24994a43db",
+    "url": "/portfolio-react/static/media/netCoreLogo.022fadb5.png"
+  },
+  {
+    "revision": "022fadb530ef022c3e54ac24994a43db",
+    "url": "/portfolio-react/static/media/netCoreLogo.022fadb5.svg"
   },
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
