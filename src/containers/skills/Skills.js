@@ -13,11 +13,12 @@ export default function Skills() {
         <Fade left duration={1000}>
           <div className="skills-image-div">
             <img
-              alt="Saad Working"
+              alt="JB Working"
               src={require("../../assets/images/developerActivity.svg")}
             ></img>
           </div>
         </Fade>
+
         <Fade right duration={1000}>
           <div className="skills-text-div">
             <h1
@@ -30,11 +31,12 @@ export default function Skills() {
                 isDark
                   ? "dark-mode subTitle skills-text-subtitle"
                   : "subTitle skills-text-subtitle"
-              }
-            >
+                }
+                >
               {skillsSection.subTitle}
             </p>
-            <SoftwareSkill />
+
+            {/* Add software stacks which i'm skilled in */}
             <div>
               {skillsSection.skills.map((skills) => {
                 return (
@@ -50,6 +52,12 @@ export default function Skills() {
                 );
               })}
             </div>
+
+            {/* Add software stacks which i'm skilled in */}
+            <SoftwareSkill />
+
+            
+
           </div>
         </Fade>
       </div>
