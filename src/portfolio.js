@@ -23,8 +23,8 @@ const skillsSection = {
   title: "What i do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front-end / User Interfaces for web and mobile applications"),
-    emoji("⚡ Develop performant back-end API's"),
+    emoji("⚡ Develop highly interactive front-end (user interfaces) for web, mobile and desktop applications"),
+    emoji("⚡ Develop back-end API's"),
     emoji("⚡ Integration of third party services such as Firebase, external API's, ..."),
     emoji("⚡ Custom integration with existing software"),
   ],
@@ -66,9 +66,19 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-android"
     },
     {
+      skillName: "Flutter",
+      fontAwesomeClassname: "/",
+      imagePath: "image not showing up"
+    },
+    {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: ".NET Core",
+      fontAwesomeClassname: "/",
+      imagePath: "image not showing up"
+    }
   ]
 };
 

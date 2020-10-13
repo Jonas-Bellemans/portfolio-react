@@ -36,7 +36,7 @@ export default function Skills() {
               {skillsSection.subTitle}
             </p>
 
-            {/* Add software stacks which i'm skilled in */}
+            {/* Add skills */}
             <div>
               {skillsSection.skills.map((skills) => {
                 return (
