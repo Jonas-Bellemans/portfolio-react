@@ -5,6 +5,8 @@
 
 import emoji from "react-easy-emoji";
 
+const githubRepoName = "portfolio-react";
+
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jonas Bellemans",
