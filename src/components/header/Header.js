@@ -4,7 +4,12 @@ import "./Header.css";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import { greeting, workExperiences } from "../../portfolio";
+import { HashLink as Link } from 'react-router-hash-link';
 
+/**
+ * When using HashBrowser, the scrolling usning '<a href="#id">/<a>" doesn't work. See github issue for solution.
+ * https://github.com/ReactTraining/react-router/issues/394#issuecomment-220221604
+ */
 function Header() {
   const { isDark } = useContext(StyleContext);
   const exp = workExperiences.viewExperiences;
@@ -26,27 +31,28 @@ function Header() {
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
-            <a href="#skills">Skills</a>
+            <Link to="#skills">Skills</Link>
+            <a href="/"></a>
           </li>
           {exp === true && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <Link to="#experience">Work Experiences</Link>
             </li>
           )}
           <li>
-            <a href="#opensource">Open Source</a>
+            <Link to="#opensource">Open Source</Link>
           </li>
           <li>
-            <a href="#achievements">Achievements</a>
+            <Link to="#achievements">Achievements</Link>
           </li>
           <li>
-            <a href="#blogs">Blogs</a>
+            <Link to="#blogs">Blogs</Link>
           </li>
           <li>
-            <a href="#talks">Talks</a>
+            <Link to="#talks">Talks</Link>
           </li>
           <li>
-            <a href="#contact">Contact Me</a>
+            <Link to="#contact">Contact Me</Link>
           </li>
           <li>
             <a>

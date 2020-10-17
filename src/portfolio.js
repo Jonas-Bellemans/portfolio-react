@@ -5,7 +5,7 @@
 
 import emoji from "react-easy-emoji";
 
-const githubRepoName = "portfolio-react";
+const githubRepoName = "/portfolio-react";
 
 const greeting = {
   /* Your Summary And Greeting Section */
@@ -300,4 +300,12 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+
+
+// Allow other files to import these variables
+export { 
+  githubRepoName,
+  greeting, socialMediaLinks, skillsSection, educationInfo, techStack, 
+  workExperiences, openSource, bigProjects, achievementSection, blogSection, 
+  talkSection, podcastSection, contactInfo , twitterDetails
+};
