@@ -18,7 +18,7 @@ import { githubRepoName } from "./portfolio";
  */
 function App() {
   return (
-    <HashRouter basename='/portfolio-react'>
+    <HashRouter basename={githubRepoName}>
       <div>
         <ul>
           <li>
