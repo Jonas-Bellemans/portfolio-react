@@ -1,4 +1,4 @@
-
+﻿
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
@@ -115,23 +115,23 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend (.NET Core)",
+      Stack: "Backend (.NET/.NET Core)",
       progressPercentage: "85%"
     },
     {
-      Stack: "Integration 3th party services",
-      progressPercentage: "70%"
+      Stack: "Integration 3th party services: REST API (json), SOAP (xml), ...",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Web front-end/Design (HTML, CSS, JS)",  //Insert stack or technology you have experience in
-      progressPercentage: "70%"  //Insert relative proficiency in percentage
+      Stack: "Front-end (web): HTML, CSS, JS (Angular, Vue), Razor",
+      progressPercentage: "60%"
     },
     {
-      Stack: "Business (statistics) visualisations/reports",
-      progressPercentage: "65%"
+      Stack: "Business (statistics) visualisations/reports: SQL, Python",
+      progressPercentage: "55%"
     },
     {
-      Stack: "Mobile app dev",
+      Stack: "Mobile app dev: Android, Flutter",
       progressPercentage: "50%"
     },
   ]
