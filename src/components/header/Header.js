@@ -16,11 +16,6 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <a href="" className="logo">
-          <span className="grey-color"> &lt;</span>
-          <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
-        </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -32,7 +27,6 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
             <Link to="#skills">Skills</Link>
-            <a href="/"></a>
           </li>
           {exp === true && (
             <li>

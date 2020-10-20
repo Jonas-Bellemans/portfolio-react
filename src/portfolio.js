@@ -144,29 +144,51 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Full-stack developer",
+      company: "SData NV (Dendermonde)",
+      companylogo: require("./assets/images/sdataLogoIcon.png"),
+      date: "October 2018 – Present",
+      desc: `
+        SData NV is small company that exists of a team of 3 people (including me). This allows SData to work together very closely with the customer. 
+        This means there are no intermediate steps, all communication is directly from customer to developer.
+        Every project you’re assigned to, you’re completely responsible from start to finish. 
+      `,
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "front-end (mostly web: Razor, Vue.js, …)",
+        "back-end (C# .NET Core)",
+        "database: creation, maintenance, migrations (SQL server)",
+        "dev-ops: custom local deploy script, github actions, manual FTP deploying",
+        "first-line support (mail, Teams, Google Meet, …)",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android developer (job student)",
+      company: "Besocoft (Temse)",
+      companylogo: require("./assets/images/becosoftLogoIcon.png"),
+      date: "2  july 2018 – 30 july 2018",
+      desc: `
+        I was hired as jobstudent to finish their Android app. Originally the android app was outsourced to India. 
+        The resulting app looked fine from the outside but behind the scenes alot of “magical tricks” happened. 
+        The app contained some severe bugs (crashing the app). 
+        <br/>
+        My job was to remove all the bugs, remove all the “magic tricks” by clean and readable code, enhance the UI & add some features, …
+      `,
+      descBullets: [
+        "Added features: dashboard, barcode scanner, ...",
+        "Enhance UI",
+        "Bugfixing",
+        "Rewrite code pieces to clean and readable code",
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Assembly line (Jobstudent)",
+      company: "Barry callebaut",
+      companylogo: require("./assets/images/BarryCallebautLogoIcon.jpg"),
+      date: "15/07/2014 – 25/07/2014",
+      desc: `
+        Mainly assembly line worker. Due education as ‘industrial engineer’, 
+        i got the opportunity to have a closer look at the maintenance of machines and robots.
+      `
     },
   ]
 };
