@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "73274cfda6df93e1b342dc03affc920e",
+    "revision": "f6f742d4ce8665c38adecb7fab7eef62",
     "url": "/portfolio-react/index.html"
   },
   {
-    "revision": "a0c5d60bb17a29b02c02",
+    "revision": "69ca67587308066a1c08",
     "url": "/portfolio-react/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "2523824ebfd2138bd66a",
+    "revision": "ec6cb18d2467182f8f80",
     "url": "/portfolio-react/static/css/4.a922a401.chunk.css"
   },
   {
-    "revision": "1e8cabf54be391107e75",
-    "url": "/portfolio-react/static/css/main.0fdd76f8.chunk.css"
+    "revision": "d0593daffec7a60419f1",
+    "url": "/portfolio-react/static/css/main.904743b9.chunk.css"
   },
   {
-    "revision": "0285f9afeb3848f3deda",
-    "url": "/portfolio-react/static/js/2.4d113136.chunk.js"
+    "revision": "ca615c8bc60a1bb3c607",
+    "url": "/portfolio-react/static/js/2.3408ccd4.chunk.js"
   },
   {
-    "revision": "a0c5d60bb17a29b02c02",
-    "url": "/portfolio-react/static/js/3.5dc628a1.chunk.js"
+    "revision": "69ca67587308066a1c08",
+    "url": "/portfolio-react/static/js/3.ff1cc70c.chunk.js"
   },
   {
-    "revision": "2523824ebfd2138bd66a",
-    "url": "/portfolio-react/static/js/4.93e6cd1b.chunk.js"
+    "revision": "ec6cb18d2467182f8f80",
+    "url": "/portfolio-react/static/js/4.fd2aa52c.chunk.js"
   },
   {
-    "revision": "1e8cabf54be391107e75",
-    "url": "/portfolio-react/static/js/main.132065c3.chunk.js"
+    "revision": "d0593daffec7a60419f1",
+    "url": "/portfolio-react/static/js/main.45b1a7c3.chunk.js"
   },
   {
-    "revision": "77165f565fe369fc254f",
-    "url": "/portfolio-react/static/js/runtime-main.6cd347e4.js"
+    "revision": "2e395465093d974511d0",
+    "url": "/portfolio-react/static/js/runtime-main.4cbc0f2f.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "/portfolio-react/static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "c220d439f8101ddd71a92e83f3aadf45",
+    "url": "/portfolio-react/static/media/UGentLogo.c220d439.png"
   },
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "25018d29d5ab115bc51c3e9a2d92f90f",
     "url": "/portfolio-react/static/media/saayaHealthLogo.25018d29.webp"
+  },
+  {
+    "revision": "50e772f83aa15c777a7052f5d2d5b720",
+    "url": "/portfolio-react/static/media/sdataLogoIcon.50e772f8.png"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
