@@ -169,19 +169,17 @@ const workExperiences = {
       desc: `
         I was hired as jobstudent to finish their Android app. Originally the android app was outsourced to India. 
         The resulting app looked fine from the outside but behind the scenes alot of “magical tricks” happened. 
-        The app contained some severe bugs (crashing the app). 
-        <br/>
-        My job was to remove all the bugs, remove all the “magic tricks” by clean and readable code, enhance the UI & add some features, …
+        The app contained some severe bugs (resulting into crashing the app). 
       `,
       descBullets: [
-        "Added features: dashboard, barcode scanner, ...",
+        "Added features: dashboard, barcode scanner, order history...",
         "Enhance UI",
         "Bugfixing",
-        "Rewrite code pieces to clean and readable code",
+        "Rewrite code blocks/files to clean and readable code",
       ]
     },
     {
-      role: "Assembly line (Jobstudent)",
+      role: "Assembly line (job student)",
       company: "Barry callebaut",
       companylogo: require("./assets/images/BarryCallebautLogoIcon.jpg"),
       date: "15/07/2014 – 25/07/2014",
