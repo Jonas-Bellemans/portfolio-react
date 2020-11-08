@@ -46,8 +46,11 @@
 }
 
 .greeting-image-div > img {
+  margin-left: 50px;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  width: 80%;
+  border-radius: 10%;
 }
 .wave-emoji {
   animation-duration: 1.8s;
@@ -82,12 +85,37 @@
 }
 
 /* Media Query */
+@media (max-width: 1500px) {
+  .greeting-image-div > img {
+    margin-left: 40px;
+    margin-right: 20px;
+    width: 90%;
+  }
+}
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
   }
   .greeting-text-p {
     font-size: 20px;
+  }
+  .greeting-image-div > img {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 75%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .greeting-image-div > img {
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 85%;
+  }
+}
+@media (max-width: 991.98px) { 
+  .greeting-image-div > img {
+    margin-left: 20px;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -105,5 +133,13 @@
   }
   .greeting-main {
     display: block;
+  }
+  .greeting-image-div > img {
+    /* The "avatar hi" image now fills the complete width of the page on mobile device. 
+    Therefore make it 80% instead of 100% of the width and center it. */
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
