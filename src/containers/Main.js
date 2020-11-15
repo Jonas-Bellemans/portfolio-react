@@ -4,7 +4,8 @@ import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
-import Projects from "./projects/Projects";
+import GitProjects from "./git-projects/GitProjects";
+import WorkProjects from "./workProjects/WorkProjects";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Blogs from "./blogs/Blogs";
@@ -46,12 +47,13 @@ export default class Main extends Component {
           <StackProgress />
           <Education />
           <WorkExperience />
-          <Projects />
-          <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
-          <Profile />
+          {/* <GitProjects /> */}
+          <WorkProjects />
+          {/* <StartupProject /> */}
+          {/* <Blogs /> */}
+          {/* <Achievement /> */}
+          {/* <Talks /> */}
+          {/* <Profile /> */}
           <Footer />
           <Top />
         </StyleProvider>
