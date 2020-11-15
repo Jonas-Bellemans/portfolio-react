@@ -1,4 +1,4 @@
-
+﻿
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
@@ -187,6 +187,28 @@ const workExperiences = {
         Mainly assembly line worker. Due education as ‘industrial engineer’, 
         i got the opportunity to have a closer look at the maintenance of machines and robots.
       `
+    },
+  ]
+};
+
+
+// Work projects
+
+const workProjectsSection = {
+
+  title: "Work projects",
+  subtitle: "With Love for Developing cool stuff. I love to write and teach others what I have learnt.",
+
+  projects: [
+    {
+      title: "Car dealer: view available second hand cars",   // Main title
+      link: "/work-projects/renault-dab-dendermonde",         // Link to post
+      company: "Renault DAB Dendermonde",
+      description: `
+        Integration Carflow manager API into existing wordpress (<a href="https://www.renaultdab.be/occasies-stock/">website</a>). <br/> 
+        Allows users to view all the second hand cars from a car dealer.
+      `,
+      labels: ["WordPress, PHP, JS, CSS, HTML"]
     },
   ]
 };
