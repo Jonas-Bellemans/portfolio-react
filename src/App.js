@@ -5,6 +5,8 @@ import "./App.css";
 import Main from "./containers/Main";
 import { githubRepoName } from "./portfolio";
 
+import "bootstrap/dist/css/bootstrap.min.css"; /* BOOTSTRAP: "The following line can be included in your src/index.js or App.js file" ~ https://react-bootstrap.github.io/getting-started/introduction/ */
+
 
 /*TODO: basename vervangen door JS variable */
 /**
