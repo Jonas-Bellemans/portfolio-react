@@ -23,9 +23,10 @@ export default function WorkProjects() {
           </div>
           <div className="blog-main-div">
             <div className="blog-text-div">
-              {blogSection.blogs.map((blog) => {
+              {blogSection.blogs.map((blog, i) => {
                 return (
-                  <WorkProjectCard
+                  <WorkProjectCard 
+                    key={i}
                     isDark={isDark}
                     blog={{
                       url: blog.url,
