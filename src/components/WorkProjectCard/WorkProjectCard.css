@@ -1,6 +1,32 @@
-.work-project-card-container:hover {
+
+/* Our whole containers while trigger onClick -> goes to blog itself. */
+.project-module-card .post-content .btn-open-post:hover {
   cursor: pointer;
 }
+
+/* Give icon center gray look (useful for mobile to read more). */
+.post-open-description {
+  color: #aaa;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.project-module-card .post-content .btn-open-post {
+  position: absolute;
+  top: -34px;
+  left: 0;
+  background: #e74c3c;
+  padding: 10px 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
 
 /**
  * CSS from https://codepen.io/zeus012345/pen/jOrKRLE
@@ -89,17 +115,7 @@
   -o-transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
   transition: all 0.3s cubic-bezier(0.37, 0.75, 0.61, 1.05) 0s;
 }
-.project-module-card .post-content .category {
-  position: absolute;
-  top: -34px;
-  left: 0;
-  background: #e74c3c;
-  padding: 10px 15px;
-  color: #FFFFFF;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
+
 .project-module-card .post-content .title {
   margin: 0;
   padding: 0 0 10px;
