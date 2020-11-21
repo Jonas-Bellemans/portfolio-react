@@ -195,12 +195,13 @@ const workExperiences = {
 // Work projects
 
 const workProjectsSection = {
-
   title: "Work projects",
   subtitle: "With Love for Developing cool stuff. I love to write and teach others what I have learnt.",
 
   projects: [
     {
+      dateTimeCreated: "",
+      dateTimeEdited: "",
       title: "Car dealer: view available second hand cars",   // Main title
       link: "/work-projects/renault-dab-dendermonde",         // Link to post
       company: "Renault DAB Dendermonde",
