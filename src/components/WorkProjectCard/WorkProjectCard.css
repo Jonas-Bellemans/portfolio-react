@@ -1,13 +1,10 @@
+.work-project-card-container:hover {
+  cursor: pointer;
+}
+
 /**
  * CSS from https://codepen.io/zeus012345/pen/jOrKRLE
  */
-/* body {
-  background: #f2f2f2;
-  font-family: 'proxima-nova-soft', sans-serif;
-  font-size: 14px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
 .project-module-card {
   position: relative;
   z-index: 1;

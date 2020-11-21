@@ -10,6 +10,7 @@
     "colorthief": "^2.3.0",
     "graphql": "^14.5.8",
     "html-react-parser": "^0.14.1",
+    "jquery": "^3.5.1",
     "react": "^16.10.2",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.10.2",
@@ -23,7 +24,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "react-scripts start",
+    "start": "react-scripts start --host 0.0.0.0",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
